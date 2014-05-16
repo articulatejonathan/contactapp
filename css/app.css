@@ -1,0 +1,62 @@
+html, body {
+    height: 100%;
+    font-family: sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+.new-button {
+    padding: 5px;
+    border: 1px solid blue;
+}
+
+.new-button button {
+    margin: 0 auto;
+    display: block;
+}
+
+.contacts-container {
+    border: 1px solid black;
+}
+
+.sidebar-section {
+    border: 1px solid red;
+    width: 30%;
+    height: 600px;
+    float: left;
+}
+
+.body-section {
+    border: 1px solid lime;
+    float: left;
+    height: 600px;
+    width: 70%;
+}
+
+.contact-item {
+    padding: 5px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.contact-details-container {
+    padding: 15px;
+}
+
+.name {
+    display: inline-block
+}
+
+.edit {
+    margin-left: 15px;
+}
+
+.message {
+    display: none;
+}
+
+.highlight {
+    background-color: lime;
+}

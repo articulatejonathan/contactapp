@@ -1,0 +1,21 @@
+<div class="contact-details-container">
+    <div>
+        <h1 class="name"><%= name %></h1>
+        <span class="edit"><a href="#">edit</a></span>
+    </div>
+    <ul class="contact-details">
+        <li>sex: <%= sex %></li>
+        <li>age: <%= age %></li>
+        <li>email: <%= email %></li>
+        <li>phone: <%= phone %></li>
+        <li>birthday: <%= birthday %></li>
+        <li>address: 
+            <ul>
+                <li>street: <%= address.street %></li>
+                <li>city: <%= address.city %></li>
+                <li>state:<%= address.state %></li>
+                <li>zip: <%= address.postcode %></li>
+            </ul>
+        </li>
+    </ul>
+</div>

@@ -1,0 +1,21 @@
+<div class="contact-details-container edit-details-container">
+    <div>
+        <h1 class="name"><input data="" name="name" type="text" value="<%= name %>"></h1>
+    </div>
+    <ul class="contact-details">
+        <li>sex: <input data="" name="sex" type="text" value="<%= sex %>"></li>
+        <li>age: <input data="" name="age" type="text" value="<%= age %>"></li>
+        <li>email: <input data="" name="email" type="text" value="<%= email %>"></li>
+        <li>phone: <input data="" name="phone" type="text" value="<%= phone %>"></li>
+        <li>birthday: <input data="" name="birthday" type="text" value="<%= birthday %>"></li>
+        <li>address: 
+            <ul>
+                <li>street: <input data="address" name="street" type="text" value="<%= address.street %>"></li>
+                <li>city: <input data="address" name="city" type="text" value="<%= address.city %>"></li>
+                <li>state: <input data="address" name="state" type="text" value="<%= address.state %>"></li>
+                <li>zip: <input data="address" name="postcode" type="text" value="<%= address.postcode %>"></li>
+            </ul>
+        </li>
+    </ul>
+    <button class="save">save</button> <span class="message">saved!</span>
+</div>
