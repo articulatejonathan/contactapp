@@ -18,8 +18,7 @@ define([
 
         initialize: function() {
             this.model.on('change:name', _.bind(function() {
-	        this.render();
-		this.$el.addClass('highlight');
+	        this.$('.contact-item').html(this.model.get('name'));
 	    }, this));
         },
 
