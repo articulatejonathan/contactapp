@@ -17,7 +17,10 @@ define([
         },
 
         initialize: function() {
-            this.model.on('change:name', this.render);
+            this.model.on('change:name', _.bind(function() {
+	        this.render();
+		this.$el.addClass('highlight');
+	    }, this));
         },
 
         onClose: function() {
