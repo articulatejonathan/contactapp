@@ -42,7 +42,6 @@ define([
         addContact: function(contactModel) {
             this.collection.add(contactModel);
             var childview = this.children.findByModel(contactModel);
-            console.log(this.children, this.collection);
             childview.$('.contact-item').addClass('highlight');
         },
 
